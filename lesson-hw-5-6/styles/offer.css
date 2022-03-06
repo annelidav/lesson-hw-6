@@ -1,0 +1,27 @@
+.offer {
+  display: flex;
+  align-items: center;
+  padding: 80px 0;
+}
+
+.offer__content {
+  margin-right: 24px;
+  padding-left: 126px;
+}
+
+.offer__title {
+  margin-bottom: 24px;
+}
+
+.offer__description {
+  margin-bottom: 16px;
+  max-width: 584px;
+}
+
+.offer__button {
+  margin-top: 32px;
+}
+
+.offer__image {
+  order: -1;
+}
