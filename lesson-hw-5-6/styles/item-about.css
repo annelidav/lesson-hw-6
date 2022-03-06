@@ -1,0 +1,55 @@
+.item-about {
+  display: flex;
+  flex-direction: column;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  border-radius: 10px;
+  max-width: 588px;
+  min-height: 26px;
+  padding: 32px;
+  margin-bottom: 20px;
+}
+
+.item-about__block {
+  max-width: 366px;
+  height: 26px;
+}
+
+/* Сорре, но я больше ничего не смогла придумать с этими стрелочками */
+
+.item-about__title,
+.item-about__second-title {
+  font-size: 24px;
+  margin-bottom: 26px;
+}
+
+.item-about__title::after {
+  content: "";
+  display: inline-block;
+  width: 40px;
+  height: 40px;
+  background: #ffece2;
+  background-image: url(/img/01.svg);
+  background-repeat: no-repeat;
+  background-position: center center;
+  border-radius: 50%;
+  vertical-align: center;
+  margin: 0 0 0 100px;
+}
+
+.item-about__second-title::after {
+  content: "";
+  display: inline-block;
+  width: 40px;
+  height: 40px;
+  background: #ff620a;
+  background-image: url(/img/02.svg);
+  background-repeat: no-repeat;
+  background-position: center center;
+  border-radius: 50%;
+  vertical-align: center;
+  margin: 0 0 0 100px;
+}
+
+.item-about__text {
+  font-size: 18px;
+}

@@ -1,0 +1,29 @@
+.feedback {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  padding: 80px 0;
+  max-width: 793px;
+}
+
+.feedback__title {
+  margin-bottom: 62px;
+  text-align: center;
+}
+
+.feedback__image {
+  margin-bottom: 44px;
+}
+
+.feedback__text {
+  margin-bottom: 40px;
+  text-align: center;
+}
+
+.feedback__text_name {
+  font-size: 20px;
+  color: #192252;
+  line-height: 30px;
+  margin-bottom: 24px;
+}

@@ -1,0 +1,29 @@
+.footer {
+  background: #0b265a;
+}
+
+.footer__container {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  padding: 120px 30px;
+}
+
+.footer__left {
+  padding-right: 399px;
+}
+
+.footer__right {
+  display: flex;
+  flex-direction: row;
+  flex: 1 0 33.33%;
+  justify-content: space-around;
+}
+
+.footer-images {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex: 1 0 33.33%;
+  cursor: pointer;
+}
